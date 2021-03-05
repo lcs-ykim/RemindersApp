@@ -11,6 +11,9 @@
 		7F16EC0025F29B240039C697 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F16EBFF25F29B240039C697 /* ContentView.swift */; };
 		7F16EC0225F29B310039C697 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F16EC0125F29B310039C697 /* Assets.xcassets */; };
 		7F16EC0525F29B310039C697 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F16EC0425F29B310039C697 /* Preview Assets.xcassets */; };
+		7F16EC1025F29BC90039C697 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F16EC0F25F29BC90039C697 /* Task.swift */; };
+		7F16EC1425F29C230039C697 /* Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F16EC1325F29C230039C697 /* Priority.swift */; };
+		7F16EC1725F29CBB0039C697 /* TaskStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F16EC1625F29CBB0039C697 /* TaskStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		7F16EC0125F29B310039C697 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F16EC0425F29B310039C697 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7F16EC0625F29B310039C697 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F16EC0F25F29BC90039C697 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		7F16EC1325F29C230039C697 /* Priority.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Priority.swift; sourceTree = "<group>"; };
+		7F16EC1625F29CBB0039C697 /* TaskStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,9 @@
 		7F16EC0E25F29B6B0039C697 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				7F16EC0F25F29BC90039C697 /* Task.swift */,
+				7F16EC1325F29C230039C697 /* Priority.swift */,
+				7F16EC1625F29CBB0039C697 /* TaskStore.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -154,8 +163,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F16EC1725F29CBB0039C697 /* TaskStore.swift in Sources */,
 				7F16EC0025F29B240039C697 /* ContentView.swift in Sources */,
+				7F16EC1025F29BC90039C697 /* Task.swift in Sources */,
 				7F16EBFE25F29B240039C697 /* RemindersAppApp.swift in Sources */,
+				7F16EC1425F29C230039C697 /* Priority.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
