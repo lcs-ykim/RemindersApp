@@ -14,6 +14,7 @@
 		7F16EC1025F29BC90039C697 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F16EC0F25F29BC90039C697 /* Task.swift */; };
 		7F16EC1425F29C230039C697 /* Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F16EC1325F29C230039C697 /* Priority.swift */; };
 		7F16EC1725F29CBB0039C697 /* TaskStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F16EC1625F29CBB0039C697 /* TaskStore.swift */; };
+		7F16EC2525F91B2F0039C697 /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F16EC2425F91B2F0039C697 /* TaskCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		7F16EC0F25F29BC90039C697 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		7F16EC1325F29C230039C697 /* Priority.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Priority.swift; sourceTree = "<group>"; };
 		7F16EC1625F29CBB0039C697 /* TaskStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskStore.swift; sourceTree = "<group>"; };
+		7F16EC2425F91B2F0039C697 /* TaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +63,6 @@
 				7F16EBFD25F29B240039C697 /* RemindersAppApp.swift */,
 				7F16EC0E25F29B6B0039C697 /* Model */,
 				7F16EC0D25F29B560039C697 /* Views */,
-				7F16EBFF25F29B240039C697 /* ContentView.swift */,
 				7F16EC0125F29B310039C697 /* Assets.xcassets */,
 				7F16EC0625F29B310039C697 /* Info.plist */,
 				7F16EC0325F29B310039C697 /* Preview Content */,
@@ -80,6 +81,8 @@
 		7F16EC0D25F29B560039C697 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				7F16EBFF25F29B240039C697 /* ContentView.swift */,
+				7F16EC2425F91B2F0039C697 /* TaskCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -167,6 +170,7 @@
 				7F16EC0025F29B240039C697 /* ContentView.swift in Sources */,
 				7F16EC1025F29BC90039C697 /* Task.swift in Sources */,
 				7F16EBFE25F29B240039C697 /* RemindersAppApp.swift in Sources */,
+				7F16EC2525F91B2F0039C697 /* TaskCell.swift in Sources */,
 				7F16EC1425F29C230039C697 /* Priority.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
